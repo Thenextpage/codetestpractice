@@ -1,0 +1,6 @@
+def solution(N, stages):
+    answer = []
+    for i in range(max(stages)):
+        while stages:
+            
+    return answer
