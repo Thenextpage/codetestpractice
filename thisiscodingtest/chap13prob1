@@ -1,0 +1,13 @@
+n=5
+string = '2 3 1 2 2 4 1 1 1 3 2 1 1'
+
+def solution(n,string):
+    ppllist = string.split(' ')
+    ppllist.sort(reverse=True)
+    count=0
+    while ppllist !=[]:
+        for j in range(int(ppllist[0])):
+            ppllist.pop(0)
+        count+=1
+    return count
+print(solution(n,string))
